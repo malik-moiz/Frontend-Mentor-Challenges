@@ -28,7 +28,7 @@ body {
 }
 article {
     background-color: var(--clr-White);
-    /* max-width: 22%; */
+    max-width: 280px;
     padding: 18px;
     border-radius: 20px;
     margin-bottom: 3rem;
@@ -48,10 +48,4 @@ article img {
 .info p {
     margin-top: 10px;
     color: var(--clr-Slate-500);
-}
-
-@media (min-width: 300px) {
-    article {
-        width: 300px;
-    }
 }
